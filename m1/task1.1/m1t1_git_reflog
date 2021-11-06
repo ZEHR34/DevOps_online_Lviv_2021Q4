@@ -1,0 +1,13 @@
+6718685 HEAD@{0}: merge develop: Fast-forward
+cccf114 HEAD@{1}: checkout: moving from develop to master
+6718685 HEAD@{2}: merge styles: Fast-forward
+18b086a HEAD@{3}: merge images: Fast-forward
+6126943 HEAD@{4}: checkout: moving from styles to develop
+6718685 HEAD@{5}: commit: css in index.html
+18b086a HEAD@{6}: checkout: moving from images to styles
+18b086a HEAD@{7}: commit: index.html edded image
+0b51d40 HEAD@{8}: commit: images
+6126943 HEAD@{9}: checkout: moving from develop to images
+6126943 HEAD@{10}: commit: index.html
+cccf114 HEAD@{11}: checkout: moving from master to develop
+cccf114 HEAD@{12}: commit (initial): readme.txt
