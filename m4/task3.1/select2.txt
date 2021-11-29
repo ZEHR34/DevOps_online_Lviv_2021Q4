@@ -1,0 +1,10 @@
+SELECT DISTINCT(audience.building)
+FROM student INNER JOIN sub_group
+ON student.sub_group_id = sub_group.id
+INNER JOIN lecture_subgroup
+ON lecture_subgroup.sub_group_id = sub_group.id
+INNER JOIN lecture
+ON lecture.id = lecture_subgroup.lecture_id
+INNER JOIN audience
+ON audience.id = lecture.audience_id
+WHERE student.name = "Endyk Pavlo";
